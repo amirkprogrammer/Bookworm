@@ -11,6 +11,11 @@
 		994EA57E2BA381C900E20187 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994EA57D2BA381C900E20187 /* ContentView.swift */; };
 		994EA5802BA381CA00E20187 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 994EA57F2BA381CA00E20187 /* Assets.xcassets */; };
 		994EA5832BA381CA00E20187 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 994EA5822BA381CA00E20187 /* Preview Assets.xcassets */; };
+		99B081CA2BA95073001A7E63 /* EmojiRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B081C92BA95073001A7E63 /* EmojiRatingView.swift */; };
+		99B081CC2BAA1D0E001A7E63 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B081CB2BAA1D0E001A7E63 /* DetailView.swift */; };
+		99E569E72BA8E3CA00499109 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E569E62BA8E3CA00499109 /* Book.swift */; };
+		99E569E92BA8E48700499109 /* AddBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E569E82BA8E48700499109 /* AddBookView.swift */; };
+		99E569EB2BA8FAF900499109 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E569EA2BA8FAF900499109 /* RatingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		994EA57D2BA381C900E20187 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		994EA57F2BA381CA00E20187 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		994EA5822BA381CA00E20187 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		99B081C92BA95073001A7E63 /* EmojiRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiRatingView.swift; sourceTree = "<group>"; };
+		99B081CB2BAA1D0E001A7E63 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		99E569E62BA8E3CA00499109 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		99E569E82BA8E48700499109 /* AddBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookView.swift; sourceTree = "<group>"; };
+		99E569EA2BA8FAF900499109 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +63,11 @@
 			children = (
 				994EA57B2BA381C900E20187 /* BookwormApp.swift */,
 				994EA57D2BA381C900E20187 /* ContentView.swift */,
+				99E569EA2BA8FAF900499109 /* RatingView.swift */,
+				99B081C92BA95073001A7E63 /* EmojiRatingView.swift */,
+				99E569E82BA8E48700499109 /* AddBookView.swift */,
+				99B081CB2BAA1D0E001A7E63 /* DetailView.swift */,
+				99E569E62BA8E3CA00499109 /* Book.swift */,
 				994EA57F2BA381CA00E20187 /* Assets.xcassets */,
 				994EA5812BA381CA00E20187 /* Preview Content */,
 			);
@@ -139,6 +154,11 @@
 			files = (
 				994EA57E2BA381C900E20187 /* ContentView.swift in Sources */,
 				994EA57C2BA381C900E20187 /* BookwormApp.swift in Sources */,
+				99E569E72BA8E3CA00499109 /* Book.swift in Sources */,
+				99B081CC2BAA1D0E001A7E63 /* DetailView.swift in Sources */,
+				99E569EB2BA8FAF900499109 /* RatingView.swift in Sources */,
+				99B081CA2BA95073001A7E63 /* EmojiRatingView.swift in Sources */,
+				99E569E92BA8E48700499109 /* AddBookView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
